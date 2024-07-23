@@ -19,16 +19,28 @@
         h1 {
             background-color: #67696e;
             color: #fff;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
+            border-bottom: 2px solid #fff;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             overflow: hidden;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         p {
             margin: 15px 0;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
         }
     </style>
 </head>
@@ -38,7 +50,7 @@
         <h2>About Me</h2>
         <p>I am a coffee addict who makes stuff sometimes.</p>
         <h2>What I'm Working On</h2>
-        <p>I'm obsessed with AI right now and I'm a face tracking robot</p>
+        <p>I'm obsessed with AI right now and I'm working on a face-tracking robot.</p>
     </div>
 </body>
 </html>
